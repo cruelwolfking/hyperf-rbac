@@ -21,6 +21,9 @@
 ![个人中心](./static/04.png)
 
 ##安装教程
+    环境要求：
+    swoole 4.4.3
+    php 7.2
     php.ini 下面添加
     swoole.use_shortname = 'Off'
     导入根目录下面的hrabac.sql文件
@@ -79,6 +82,7 @@
       vendor:publish     Publish any publishable configs from vendor packages.
       
 ##使用的第三方包
+
     "firebase/php-jwt": "^5.0",             jwt包
     "lasserafn/php-initial-avatar-generator": "^4.0"  头像生成
  
