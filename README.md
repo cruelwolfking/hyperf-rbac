@@ -25,10 +25,16 @@
     swoole 4.4.3
     php 7.2
     php.ini 下面添加
+    
     swoole.use_shortname = 'Off'
+    
     导入根目录下面的hrabac.sql文件
     
     修改.env 配置
+    
+    执行composer install
+    
+    php bin/hyperf start
     
     管理端采用element-admin开发
     
